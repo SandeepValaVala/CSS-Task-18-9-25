@@ -1,0 +1,86 @@
+
+.nav-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    /* font-size: large; */
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 50px;
+
+}
+
+.nav-bar>.nav-item:hover{
+    color: red;
+}
+
+.nav-meet{
+    background-color:black;
+    color: white;
+    display: flex;
+    padding: 15px;
+    padding-bottom: 0;
+    font-size: x-large;
+    justify-content: space-around;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.nav-meet>.item>.bi-chevron-down{
+    font-size: small;
+    padding-left: 6px;
+    text-align: center;
+}
+
+.nav-meet>.item>p{
+    font-size:large;
+    margin-top: 7px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    /* text-align: center; */
+}
+
+.nav-meet>.item-11>i{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+.nav-icon{
+    background-color: black;
+    color: white;
+    padding: 18px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.nav-icon>.icon-item-1>i{
+    border: 2px solid;
+    background-color: rgb(16, 16, 234);
+    padding: 8px;
+    border-radius: 10px;
+}
+.nav-icon>.icon-item-6>i{
+    border: 2px solid white;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+.nav-icon>.icon-item-8>i{
+    color: red;
+    font-size: xx-large;
+    margin: 0;
+}
+.nav-icon>.icon-item-15>i{
+    /* border: 2px solid ; */
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;   
+}
